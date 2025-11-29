@@ -1,5 +1,22 @@
 .div_flex{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+}
+
+input{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    
+}
+
+.vazio{
+    width: 21px;
+    height: 20.91px;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
