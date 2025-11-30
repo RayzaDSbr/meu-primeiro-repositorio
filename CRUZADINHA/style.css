@@ -4,6 +4,15 @@
     
 }
 
+.flex_pai{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
 input{
     width: 15px;
     height: 15px;
