@@ -6,26 +6,47 @@
 
 .flex_pai{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items:center ;
 }
 
 .center{
     display: flex;
     justify-content: center;
 }
+
+.texto{
+    width: 700px;
+}
+
+p{
+    font-size: 12px;
+}
+
+p.num{
+}
 input{
     width: 15px;
     height: 15px;
     text-align: center;
-    
 }
 
 .vazio{
     width: 21px;
     height: 20.91px;
+    text-align: center;
+    margin-left: 1px;
+    font-size: 15px;
 }
 .coluna{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+input::placeholder {
+    color: rgb(93, 53, 223); 
+    font-size: 8px;   
+    font-style: italic;
+    opacity: 1;       
 }
